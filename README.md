@@ -24,7 +24,7 @@ Add the following to your `composer.json` file:
 ```json
 {
   "require": {
-    "inakiabt/etsy-php": ">=0.10"
+    "inakiabt/etsy-php": ">=0.11"
   }
 }
 ```
@@ -189,7 +189,7 @@ There are some methods that Etsy requires to be a JSON string encoded param (ie:
 
 ## Testing ##
 ```bash
-$ vendor/bin/phpunit src/test/
+$ vendor/bin/phpunit tests/
 ```
 
 ## Changelog
@@ -213,6 +213,6 @@ Please fork this project and send me a pull request!
 
 ## License
 
-mobiledevice is licensed under the MIT license:
+Etsy-PHP is licensed under the MIT license:
 
 www.opensource.org/licenses/MIT
